@@ -3,7 +3,7 @@ package figuras;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Triangulo {
+public class Rombo {
 	public static void main(String[] args) {
 	    // Declaro las variables
 	    int numero;
@@ -41,15 +41,26 @@ public class Triangulo {
 	        for (int k = 1; k <= i; k++) {
 	            System.out.print("* ");
 	        }
+	        
+	        System.out.println();
+	        
+	        
+	    }
+	    
+	    for (int n = 1; n <= numero; n++) {
+	    	for (int l = numero - 1; l >= numero - n; l--) {
+	            System.out.print(" ");
+	        }
 
+	       
+	        for (int m = numero - 1; m >= n; m--) {
+	            System.out.print("* ");
+	        }
 	        
 	        System.out.println();
 	    }
-
 	    
 	    sc.close();
 		
 	}
-
 }
-

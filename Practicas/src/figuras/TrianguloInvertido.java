@@ -3,10 +3,10 @@ package figuras;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Triangulo {
+public class TrianguloInvertido {
 	public static void main(String[] args) {
 	    // Declaro las variables
-	    int numero;
+	    int numero, a = 1;
 
 	    // Creo el Scanner
 	    Scanner sc = new Scanner(System.in);
@@ -31,22 +31,25 @@ public class Triangulo {
 	    } while (numero < 1);
 
 	    
+
+	    
 	    for (int i = 1; i <= numero; i++) {
-	       
-	        for (int j = 1; j <= numero - i; j++) {
+	      
+	    	for (int j = numero - 1; j > numero - i; j--) {
 	            System.out.print(" ");
 	        }
 
-	        
-	        for (int k = 1; k <= i; k++) {
+	       
+	        for (int k = numero; k >= i; k--) {
 	            System.out.print("* ");
 	        }
-
+	        
 	        
 	        System.out.println();
+	        
 	    }
 
-	    
+	    // Cierro el Scanner
 	    sc.close();
 		
 	}
