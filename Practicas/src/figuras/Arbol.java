@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Arbol {
 	public static void main(String[] args) {
-		int num, calculo;
+		int num;
 		
 		Scanner sc = new Scanner(System.in);
 		
