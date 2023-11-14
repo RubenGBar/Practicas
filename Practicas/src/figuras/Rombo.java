@@ -29,7 +29,6 @@ public class Rombo {
 	            System.out.println("Valor erroneo");
 
 	    } while (numero < 1);
-
 	    
 	    for (int i = 1; i <= numero; i++) {
 	       
