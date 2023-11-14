@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TrianguloInvertido {
 	public static void main(String[] args) {
 	    // Declaro las variables
-	    int numero, a = 1;
+	    int numero;
 
 	    // Creo el Scanner
 	    Scanner sc = new Scanner(System.in);
